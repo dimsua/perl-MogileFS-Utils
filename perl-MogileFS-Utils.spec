@@ -4,8 +4,8 @@ Release:        1%{?dist}
 Summary:        Utilities for MogileFS
 License:        GPL or Artistic
 Group:          Development/Libraries
-URL:            http://search.cpan.org/dist/MogileFS-Utils/
-Source0:        http://search.cpan.org/CPAN/authors/id/B/BR/BRADFITZ/MogileFS-Utils-%{version}.tar.gz
+URL:            https://metacpan.org/release/MogileFS-Utils
+Source0:        https://cpan.metacpan.org/authors/id/D/DO/DORMANDO/MogileFS-Utils-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:      noarch
 

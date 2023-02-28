@@ -10,7 +10,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:      noarch
 
 BuildRequires:  perl(ExtUtils::MakeMaker)
-BuildRequires:  perl(MogileFS::Client)
+BuildRequires:  perl-MogileFS-Client
 BuildRequires:  perl(Compress::Zlib)
 BuildRequires:  perl(LWP::Simple)
 Requires:       perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
